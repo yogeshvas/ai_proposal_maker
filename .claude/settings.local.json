@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun add *)",
+      "Bash(mkdir -p src/renderers src/templates generated)",
+      "Bash(bun build *)",
+      "Bash(bun install *)",
+      "Bash(node -e ' *)",
+      "Bash(bun -e ' *)",
+      "Bash(bunx tsc *)",
+      "Bash(bun run *)"
+    ]
+  }
+}
