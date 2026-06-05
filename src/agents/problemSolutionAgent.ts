@@ -50,6 +50,7 @@ ${JSON.stringify(data)}`
 
         })
         const parsed = JSON.parse(response.output_text);
+        console.log(`*********`)
         return parsed
     } catch (error) {
 
