@@ -6,6 +6,9 @@ const BANNED = new Set([
     "architecture", "analytics", "visibility", "platform", "solution",
     "automation", "engagement", "ecosystem", "infrastructure", "deployment",
     "scalable", "unified", "centralized", "omnichannel", "conversational",
+    // content/publishing words that pull in books and media results
+    "content", "framework", "book", "fuel", "guide", "creator",
+    "marketing", "brand", "story", "storytelling", "ideas",
     // medical (insurance ≠ health insurance)
     "doctor", "doctors", "medical", "health", "hospital", "clinic",
     "stethoscope", "nurse", "physician", "healthcare", "medicine",
@@ -13,6 +16,9 @@ const BANNED = new Set([
     // proper nouns / brand names that produce 0 results (not in substitutions)
     "prudential", "marichi", "zambia", "zambian",
     "hubspot", "twilio", "zendesk", "freshworks",
+    // other noise words
+    "unlimited", "generate", "how", "for", "the", "and", "with",
+    "via", "across", "through", "using", "based", "driven",
 ]);
 
 // Remap industry jargon → stock-photo-friendly visual terms

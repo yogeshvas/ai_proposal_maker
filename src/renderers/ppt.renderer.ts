@@ -29,7 +29,7 @@ const LAYOUT_RENDERER_MAP: Record<LayoutType, TemplateRenderer> = {
   architecture: renderArchitectureTemplate,
   comparison: renderComparisonTemplate,
   minimal: renderMinimalTemplate,
-  // new layouts — PDF-only, PPT stubs
+  // PDF-only layouts — PPT stubs
   icon_grid: noop,
   challenge_grid: noop,
   flow_kpi: noop,
@@ -40,6 +40,18 @@ const LAYOUT_RENDERER_MAP: Record<LayoutType, TemplateRenderer> = {
   text_chart: noop,
   text_flow: noop,
   quote_image: noop,
+  dark_steps: noop,
+  dark_comparison: noop,
+  dark_flow: noop,
+  concentric_layers: noop,
+  big_numbers: noop,
+  split_insight: noop,
+  funnel_stages: noop,
+  arrow_pipeline: noop,
+  pyramid_tiers: noop,
+  circular_flow: noop,
+  venn_overlap: noop,
+  petal_diagram: noop,
 };
 
 const SLIDE_TYPE_LAYOUT_FALLBACK: Record<string, LayoutType> = {

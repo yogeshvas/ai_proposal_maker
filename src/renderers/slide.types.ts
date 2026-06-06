@@ -68,4 +68,16 @@ export type LayoutType =
   | "tech_ecosystem"
   | "text_chart"
   | "text_flow"
-  | "quote_image";
+  | "quote_image"
+  | "dark_steps"
+  | "dark_comparison"
+  | "dark_flow"
+  | "concentric_layers"
+  | "big_numbers"
+  | "split_insight"
+  | "funnel_stages"
+  | "arrow_pipeline"
+  | "pyramid_tiers"
+  | "circular_flow"
+  | "venn_overlap"
+  | "petal_diagram";
